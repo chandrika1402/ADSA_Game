@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Color Stack Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3 class="game-title">Alliance,The Cosmic Campus</h3>
+  <canvas id="gameCanvas" width="400" height="600"></canvas>
+  <p>Press SPACE or TAP to drop the block</p>
+
+  <!-- Game Over Modal -->
+  <div id="gameOverModal" class="modal">
+    <div class="modal-content">
+      <h2>Game Over!</h2>
+      <p>Your Score: <span id="finalScore">0</span></p>
+      <button id="restartBtn">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
